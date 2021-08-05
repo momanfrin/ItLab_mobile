@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+#container-fluid {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.inicio {
+    background-color: black;
+    color: white;
+}
+
+.img_menu {
+    /* colocar o rem para que tudo seja proporcional */
+    height: 3rem;
+    margin: 3%;
+    display: flex;
+}
+
+.container{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.menu{
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+    height: 60px;
+    display: block;
+    position: relative;
+    text-align:right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 0 0 15px; 
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color:dodgerblue;
+    text-decoration: underline;
+}
+
+
+.img_rodape {
+    display: flex;
+    height: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%; 
+}
+.copyright {
+    text-align: center;
+    font-size: 1rem;
+}
