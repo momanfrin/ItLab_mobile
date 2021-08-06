@@ -1,8 +1,16 @@
 @charset "UTF-8";
 
-#container-fluid {
+#container {
     max-width: 100%;
     max-height: 100%;
+}
+
+.container-fluid {
+    background-color: black;
+}
+
+.nav-link {
+    color: white;
 }
 
 .inicio {
